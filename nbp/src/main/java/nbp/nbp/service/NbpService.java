@@ -36,7 +36,7 @@ public class NbpService {
 
             for (Rates rates : nbp.getRates()) {
                 sum += rates.getMid();
-
+//tu jest średnia i działa
 
             }
             sr = sum / nbp.getRates().size();
