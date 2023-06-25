@@ -1,8 +1,9 @@
-package jazs25373nbp.jazs25373nbp.model;
-
+package nbp.nbp.nbpmodel;
 import java.util.List;
+import jakarta.persistence.*;
 
 public class Nbp {
+
 
 
     private String Table;
@@ -14,7 +15,6 @@ public class Nbp {
 
     public Nbp() {
     }
-
     public Nbp(String table, String currency, String code, List rates) {
         this.Table = table;
         this.currency = currency;
@@ -63,9 +63,8 @@ public class Nbp {
                 ", code='" + rates + '\'' +
                 '}';
     }
+
+
+
+
 }
-
-
-
-
-
